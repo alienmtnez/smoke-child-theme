@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*
+ Theme Name:   Smoke
+ Theme URI:    http://smoke.alienmartinez.com
+ Description:  Blank Child Theme with Smoke effect enabled
+ Author:       Alien Martínez
+ Author URI:   http://alienmartinez.com
+ Template:     divi
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#canvas {
+    bottom: 0;
+    opacity: 0.6;
+    position: absolute;
+}
