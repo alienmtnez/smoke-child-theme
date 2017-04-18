@@ -1,4 +1,4 @@
-# Smoke Chil Theme for Divi
+# Smoke Child Theme for Divi
 Smoke is blank Child Theme for Divi with Smoke Effect
 
 
