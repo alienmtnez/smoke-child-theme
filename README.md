@@ -1,8 +1,22 @@
 # Smoke Chil Theme for Divi
-Smoke is blank Child Theme for Divi with smoke effect
+Smoke is blank Child Theme for Divi with Smoke Effect
+
+
+![](./smoke/screenshot.jpg)
+
+## What's the smoke effect?
+The smoke effect is inspired by and based on [smoke.js](https://github.com/bijection/smoke.js) with a little improvements to make it responsive. It adds a nice smoke effect wich is ideal for food websites.
+
+
+## Features 
+
+* Change the smoke color
+* Change the smoke origin
+* Control the smoke with your mouse
+* Fully responsive
 
 ## How to use it?
-* Install your Child Theme
+* Download and Install your Child Theme
 * Add the following code to your integrations TAB
 
 ```<script>
@@ -50,5 +64,31 @@ jQuery(document).ready(function($) { // Get the canvas width and height
 
 </script>
 ```
-* Add a background image and the id smoke-section to the section that will have the smoke effect.
+![](./assets/include-scripts.jpg)
 
+* Import the default layout "default-smoke-layout.json" from the folder layouts.
+
+## How to contribute?
+
+* Improve this documentation. My first language is Spanish, so if you improve this documentation it will be a big help.
+* Translate this README file.
+ 
+###On GitHub
+
+- [Create a Fork] (https://github.com/alienmtnez/smoke-child-theme/fork)
+- Add your changes
+- Create a Pull Request
+
+### Email me
+[Send me an email](mailto:alien.mtnez@gmail.com)
+
+##Change Log
+
+
+## [0.1.0] - 2017-04-17
+### Added
+- Child Theme.
+- Default Smoke Layout.
+
+## License
+GNU General Public License v3.0 Read [LICENSE.md](https://github.com/alienmtnez/smoke-child-theme/blob/master/LICENSE) for more information.
