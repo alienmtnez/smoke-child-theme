@@ -73,19 +73,21 @@ jQuery(document).ready(function($) { // Get the canvas width and height
 * Improve this documentation. My first language is Spanish, so if you improve this documentation it will be a big help.
 * Translate this README file.
  
-###On GitHub
+### On GitHub
 
 - [Create a Fork] (https://github.com/alienmtnez/smoke-child-theme/fork)
 - Add your changes
 - Create a Pull Request
 
 ### Email me
+
 [Send me an email](mailto:alien.mtnez@gmail.com)
 
-##Change Log
+## Change Log
 
 
 ## [0.1.0] - 2017-04-17
+
 ### Added
 - Child Theme.
 - Default Smoke Layout.
