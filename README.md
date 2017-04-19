@@ -19,7 +19,8 @@ The smoke effect is inspired by and based on [smoke.js](https://github.com/bijec
 * Download and Install your Child Theme
 * Add the following code to your integrations TAB
 
-```<script>
+```
+<script>
 
 // Smoke effect setup
 
