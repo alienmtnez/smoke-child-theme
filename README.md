@@ -24,6 +24,8 @@ The smoke effect is inspired by and based on [smoke.js](https://github.com/bijec
 
 // Smoke effect setup
 
+// Smoke effect setup
+
 // Create the canvas
 jQuery(document).ready(function($) {
 jQuery ('#smoke-section').append('<canvas id="canvas" width="960" height="960"></canvas>');
@@ -31,6 +33,10 @@ jQuery ('#smoke-section').append('<canvas id="canvas" width="960" height="960"><
 
 
 jQuery(document).ready(function($) { // Get the canvas width and height
+
+
+if ($('#canvas').length) {
+
 	var canvas = document.getElementById('canvas')
 	var ctx = canvas.getContext('2d')
 	W = document.body.parentNode.clientWidth ;
@@ -60,8 +66,14 @@ jQuery(document).ready(function($) { // Get the canvas width and height
 		party.addsmoke(document.body.parentNode.clientWidth/2, innerHeight, 1) // Smoke start position
 	}, 100);
 
-});
+ /* it exists */
+}
+else
+{
+ /* it doesn't exist */
+}
 
+});
 
 </script>
 ```
